@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    transform: scale(1.5);
+    background-color: powderblue;
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 700px;
+    border-radius: 2%;
+}
+.login h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    width: 5rem;
+}

@@ -1,0 +1,26 @@
+.row{
+    margin: 5rem;
+}
+.card-text{
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 767px) {
+    .row {
+        margin: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .card-text{
+        text-align: center;
+    }
+    .btn.btn-primary {
+        width: 100%; 
+        margin-bottom: 1rem; 
+    }
+}

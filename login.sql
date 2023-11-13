@@ -1,0 +1,12 @@
+CREATE DATABASE login;
+USE login;
+CREATE TABLE login_data(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	username VARCHAR(100) NOT NULL,
+	email VARCHAR(255) NOT NULL,
+	pass VARCHAR(10) NOT NULL
+);
+
+SELECT*FROM login_data;
+
+
